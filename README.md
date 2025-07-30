@@ -24,16 +24,16 @@ Dalam proyek ini, kami melatih GAN pada dataset **MNIST**, yang terdiri dari dig
 
 ## Struktur Direktori Proyek
 
-/Implementasi-Generative-Adversarial-Network/
+Implementasi-Generative-Adversarial Network/
 ├── gan_kelompok3.ipynb        # Notebook Jupyter berisi seluruh implementasi GAN
+├── README.md                  # File dokumentasi proyek ini
 ├── generated_images/          # Folder untuk menyimpan contoh gambar yang dihasilkan Generator
 │   ├── epoch_000.png
 │   ├── epoch_010.png
 │   └── ... (gambar dari setiap epoch tertentu)
-├── models/                    # Folder untuk menyimpan model Generator dan Discriminator yang telah dilatih (.pth)
-│   ├── generator_epoch_XXX.pth
-│   └── discriminator_epoch_XXX.pth
-├── README.md                  # File dokumentasi proyek ini
+└── models/                    # Folder untuk menyimpan model Generator dan Discriminator yang telah dilatih (.pth)
+    ├── generator_epoch_XXX.pth
+    └── discriminator_epoch_XXX.pth
 
 ## Cara Menjalankan Kode
 
