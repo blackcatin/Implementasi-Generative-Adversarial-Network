@@ -23,7 +23,7 @@ Dalam proyek ini, kami melatih GAN pada dataset **MNIST**, yang terdiri dari dig
     * **Tugas:** Manajemen Repositori GitHub dan Pengujian Awal Model Generator
 
 ## Struktur Direktori Proyek
-
+'''
 Implementasi-Generative-Adversarial Network/
 ├── gan_kelompok3.ipynb        # Notebook Jupyter berisi seluruh implementasi GAN
 ├── README.md                  # File dokumentasi proyek ini
@@ -34,7 +34,7 @@ Implementasi-Generative-Adversarial Network/
 └── models/                    # Folder untuk menyimpan model Generator dan Discriminator yang telah dilatih (.pth)
     ├── generator_epoch_XXX.pth
     └── discriminator_epoch_XXX.pth
-
+'''
 ## Cara Menjalankan Kode
 
 Untuk menjalankan proyek GAN ini, ikuti langkah-langkah berikut:
